@@ -1,0 +1,3 @@
+module CLTokenInputView {
+    header "CLTokenInputView.h"
+}
