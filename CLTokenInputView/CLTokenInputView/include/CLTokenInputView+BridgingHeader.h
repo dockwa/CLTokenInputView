@@ -1,5 +1,5 @@
-#ifndef CLTokenInputView+BridgingHeader_h
-#define CLTokenInputView+BridgingHeader_h
+#ifndef CLTokenInputView_CLTokenInputView+BridgingHeader_h
+#define CLTokenInputView_CLTokenInputView+BridgingHeader_h
 
 #import "CLToken.h"
 #import "CLTokenView.h"
