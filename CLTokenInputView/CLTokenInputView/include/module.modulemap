@@ -1,0 +1,4 @@
+module CLTokenInputView {
+    header "CLTokenInputView+BridgingHeader.h"
+    export *
+}
