@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452DA63B2AD5DE83005CDFE4 /* CLTokenInputView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 452DA63A2AD5DE82005CDFE4 /* CLTokenInputView.podspec */; };
 		65B16B7E18BC16F6003AA819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B7D18BC16F6003AA819 /* Foundation.framework */; };
 		65B16B8018BC16F6003AA819 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B7F18BC16F6003AA819 /* CoreGraphics.framework */; };
 		65B16B8218BC16F6003AA819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B8118BC16F6003AA819 /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		452DA63A2AD5DE82005CDFE4 /* CLTokenInputView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CLTokenInputView.podspec; sourceTree = "<group>"; };
 		45C1A5A328C46A4300CF7550 /* CLTokenInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLTokenInputView.h; path = CLTokenInputView/include/CLTokenInputView.h; sourceTree = "<group>"; };
 		45C1A5A428C46A4300CF7550 /* CLBackspaceDetectingTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLBackspaceDetectingTextField.h; path = CLTokenInputView/include/CLBackspaceDetectingTextField.h; sourceTree = "<group>"; };
 		45C1A5A528C46A4300CF7550 /* CLTokenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLTokenView.h; path = CLTokenInputView/include/CLTokenView.h; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		65B16B7118BC16F6003AA819 = {
 			isa = PBXGroup;
 			children = (
+				452DA63A2AD5DE82005CDFE4 /* CLTokenInputView.podspec */,
 				65B16B8318BC16F6003AA819 /* CLTokenInputView */,
 				65B16B9C18BC16F7003AA819 /* CLTokenInputViewTests */,
 				65B16B7C18BC16F6003AA819 /* Frameworks */,
@@ -269,6 +272,7 @@
 				65B16B8818BC16F6003AA819 /* InfoPlist.strings in Resources */,
 				65E86F821C407E3A0029E724 /* LaunchScreen.storyboard in Resources */,
 				65B16B9018BC16F6003AA819 /* Images.xcassets in Resources */,
+				452DA63B2AD5DE83005CDFE4 /* CLTokenInputView.podspec in Resources */,
 				65B16BBA18BC1826003AA819 /* CLTokenInputViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLTokenInputView/CLTokenInputView-Prefix.pch";
 				INFOPLIST_FILE = "CLTokenInputView/CLTokenInputView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getcluster.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -466,7 +470,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLTokenInputView/CLTokenInputView-Prefix.pch";
 				INFOPLIST_FILE = "CLTokenInputView/CLTokenInputView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getcluster.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -489,6 +493,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CLTokenInputViewTests/CLTokenInputViewTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getcluster.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -508,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLTokenInputView/CLTokenInputView-Prefix.pch";
 				INFOPLIST_FILE = "CLTokenInputViewTests/CLTokenInputViewTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.getcluster.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
